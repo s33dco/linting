@@ -1,0 +1,41 @@
+Arguments: 
+  /usr/local/Cellar/node/12.4.0/bin/node /usr/local/bin/yarn add eslint prettier eslint-plugin-prettier eslint-congi-prettier eslint--plugin-node eslint-config-node
+
+PATH: 
+  /Users/dc/.rvm/gems/ruby-2.6.3/bin:/Users/dc/.rvm/gems/ruby-2.6.3@global/bin:/Users/dc/.rvm/rubies/ruby-2.6.3/bin:/usr/local/sbin:/Users/dc/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:~/bin:/Users/dc/.rvm/bin:/Users/dc/.rvm/bin
+
+Yarn version: 
+  1.15.2
+
+Node version: 
+  12.4.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/eslint-congi-prettier: Not found
+      at Request.params.callback [as _callback] (/usr/local/lib/node_modules/yarn/lib/cli.js:66058:18)
+      at Request.self.callback (/usr/local/lib/node_modules/yarn/lib/cli.js:129541:22)
+      at Request.emit (events.js:200:13)
+      at Request.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:130513:10)
+      at Request.emit (events.js:200:13)
+      at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:130435:12)
+      at Object.onceWrapper (events.js:288:20)
+      at IncomingMessage.emit (events.js:205:15)
+      at endReadableNT (_stream_readable.js:1154:12)
+      at processTicksAndRejections (internal/process/task_queues.js:84:9)
+
+npm manifest: 
+  {
+    "name": "lintingsetup",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
